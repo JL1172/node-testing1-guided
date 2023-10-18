@@ -2,10 +2,16 @@
   "name": "node-testing1-guided",
   "version": "1.0.0",
   "scripts": {
-    "ketchup": "git fetch && git reset --hard origin/lecture"
+    "ketchup": "git fetch && git reset --hard origin/lecture",
+    "test": "jest --verbose --watchAll"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BloomInstituteOfTechnology/node-testing1-guided.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "eslint": "^8.51.0",
+    "jest": "^29.7.0"
   }
 }
